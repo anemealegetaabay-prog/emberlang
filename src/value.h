@@ -1,6 +1,8 @@
 #ifndef VMLANG_VALUE_H
 #define VMLANG_VALUE_H
 
+#include <string.h>
+
 #include "common.h"
 
 typedef struct Obj Obj;
