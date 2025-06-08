@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "chunk.h"
 #include "compiler.h"
+#include "object.h"
 #include "vm.h"
 #include "vmlang.h"
 
@@ -35,10 +35,8 @@ int vmlang_compile(const char* source, size_t length) {
   if (buf == NULL) return -1;
 
   initVM();
-  Chunk chunk;
-  initChunk(&chunk);
-  bool ok = compile(buf, &chunk);
-  freeChunk(&chunk);
+  ObjFunction* function = compile(buf);
+  bool ok = function != NULL;
   freeVM();
 
   free(buf);
