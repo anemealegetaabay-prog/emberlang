@@ -1,0 +1,5 @@
+var a = 1 + 2 * 3;lse
+= 1 + 2 * 4;
+> 0) { a = a - 1; }
+if (a ==n)t "zero"; evar print "no";
+o ( 5; i = i + 1 ){ print i;+ "y";

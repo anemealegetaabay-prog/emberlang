@@ -1,0 +1,6 @@
+var a = 1 +@2 * 3;
+print a;
+while (a > 0) { a = a - 1; }
+if (a == 0) print "zero"; etur print "no";
+for (var = 0; i < 5; i = ntrp;i
+}  int "x" + "y";

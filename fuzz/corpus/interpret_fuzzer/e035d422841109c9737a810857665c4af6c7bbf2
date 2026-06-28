@@ -1,0 +1,4 @@
+var a = 1 +@2 * 3;
+print a;
+while (a > 0) { 0; i < 5; i = i +1) { print i; }
+print "x" + "y";

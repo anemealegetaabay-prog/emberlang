@@ -1,0 +1,6 @@
+var a = 1 + 2 * 3;
+print a;
+while (a > 0) { a = a - 1; }
+if (a ==pr  0in)t "zero"; else print "no";
+for (var i = 0; i < 5; i = i + 1 ){ print i; }
+print "x" + "y";

@@ -1,0 +1,3 @@
+var a = 1 + 2 * 1;
+print a 1;se print "no";
+for (var i = 0; i <

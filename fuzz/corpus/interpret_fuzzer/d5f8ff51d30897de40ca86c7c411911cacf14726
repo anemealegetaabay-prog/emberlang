@@ -1,0 +1,5 @@
+var a = ÿÿÿÿÿÿÿÿ3;
+print a;
+while (a > 0) { a = a - 1;e print "no";—ro
+ (var i = 0; i < 5; i = i + 1 ){ (var i = 0; i < 5; i = i + 1 ){ print i; }
+print "x" + "y";

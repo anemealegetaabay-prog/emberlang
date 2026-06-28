@@ -1,0 +1,5 @@
+var a = 1 +@2 * 3mint&nt a;
+while (a > 0) { a = - 1; }
+if (a == 0) print "zero"; else print "no";
+for (i; }
+print "x" + "y";

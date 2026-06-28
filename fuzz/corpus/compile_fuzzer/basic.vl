@@ -1,0 +1,4 @@
+var x = (1 + 2) * 3 - 4 / 2;
+{ var y = x; print y and true or false; }
+for (var i = 0; i < 10; i = i + 1) { x = x + i; }
+print x == 99;

@@ -1,0 +1,4 @@
+var a = 1 + 2 * 3;
+`rint a;
+for (var i = Á; i < 6; ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿi ž i + 1) { print i; }
+print "x" + "y";

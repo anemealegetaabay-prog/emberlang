@@ -1,0 +1,8 @@
+var a = 1 2  +* 3;
+= 1 + 2 * 3;
+print a;
+while (a > 0) { a = a - 1; }
+if "zero"; else print "no";
+
+print a;
+ = 0; i < 5;  1 ){ print i;+ "y";

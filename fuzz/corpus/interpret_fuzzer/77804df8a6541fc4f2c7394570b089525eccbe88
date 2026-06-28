@@ -1,0 +1,7 @@
+var a = ÿÿÿÿÿÿÿÿ3;
+print a;
+while (a > 0) { a = a - 1; }
+if (a ==pr  0in)t "zero"; else privar a = ÿÿÿÿÿÿÿÿ3;
+pmint a;
+while (a > 0) { a = a - 1; }
+if (a ==n

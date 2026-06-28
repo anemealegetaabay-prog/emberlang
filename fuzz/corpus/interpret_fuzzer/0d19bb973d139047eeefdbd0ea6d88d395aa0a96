@@ -1,0 +1,6 @@
+var a = ÿÿÿÿÿÿÿÿ3;
+pmint a;
+while (a > 0) { a = a - 1; }
+if (a ==pr  0in)t "zo"; else prinu "no";
+for (var i = 0; i < 5; i = i + 1 ){ print i; }
+print "x" + "y";

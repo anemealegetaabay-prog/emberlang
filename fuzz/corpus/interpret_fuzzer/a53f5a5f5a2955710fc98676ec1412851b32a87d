@@ -1,0 +1,6 @@
+var a = ÿÿÿÿÿÿÿÿ3;
+pmint a;
+while (a > 0) { a = a - 1; }
+if (a ==pr  0in)t "zero"; else printa - 1; }
+if (a ==pr  0in < 5; i = i + 1 ){ print h; }
+print "x" + "y";

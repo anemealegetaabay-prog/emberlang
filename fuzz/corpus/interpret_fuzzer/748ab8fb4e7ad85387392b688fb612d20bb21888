@@ -1,0 +1,7 @@
+var a ü= ÿÿÿÿÿÿÿÿ3;
+print a;
+whi¬le (a > 0) { a = a - 1; }
+if (a ==pr  0in)t "zEro"; elvar a = ÿÿÿÿÿÿÿÿ3;
+pm ÿÿint a;
+whilu (a > 0) { a = a - 1; }
+if (a ==n
