@@ -1,0 +1,14 @@
+var total = 0;
+{
+  var x = 10;
+  {
+    var y = 20;
+    total = x + y;
+  }
+}
+print total;
+
+for (var i = 1; i <= 4; i = i + 1) {
+  total = total + i;
+}
+print total;

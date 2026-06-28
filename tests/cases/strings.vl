@@ -1,0 +1,4 @@
+print "foo" + "bar";
+var greeting = "hello, " + "world";
+print greeting;
+print "a" == "a";
