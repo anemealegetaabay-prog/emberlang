@@ -1,0 +1,7 @@
+language: c
+sanitizers:
+  - address
+  - undefined
+fuzz_targets:
+  - interpret_fuzzer
+  - compile_fuzzer
