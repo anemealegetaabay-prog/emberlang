@@ -57,7 +57,7 @@ int main(int argc, const char* argv[]) {
   } else if (argc == 2) {
     runFile(argv[1]);
   } else {
-    fprintf(stderr, "Usage: vmlang [path]\n");
+    fprintf(stderr, "Usage: emberlang [path]\n");
     freeVM();
     exit(64);
   }

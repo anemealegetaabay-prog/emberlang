@@ -1,5 +1,5 @@
-#ifndef VMLANG_CHUNK_H
-#define VMLANG_CHUNK_H
+#ifndef EMBERLANG_CHUNK_H
+#define EMBERLANG_CHUNK_H
 
 #include "common.h"
 #include "value.h"

@@ -1,5 +1,5 @@
-#ifndef VMLANG_COMMON_H
-#define VMLANG_COMMON_H
+#ifndef EMBERLANG_COMMON_H
+#define EMBERLANG_COMMON_H
 
 #include <stdbool.h>
 #include <stddef.h>

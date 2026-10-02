@@ -6,7 +6,7 @@ BUILD   := build
 SRCS    := $(wildcard src/*.c)
 OBJS    := $(patsubst src/%.c,$(BUILD)/%.o,$(SRCS))
 
-vmlang: $(OBJS)
+emberlang: $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $(OBJS)
 
 $(BUILD)/%.o: src/%.c | $(BUILD)
@@ -16,8 +16,8 @@ $(BUILD):
 	mkdir -p $(BUILD)
 
 .PHONY: test clean
-test: vmlang
+test: emberlang
 	@tests/run_tests.sh
 
 clean:
-	rm -rf $(BUILD) vmlang
+	rm -rf $(BUILD) emberlang

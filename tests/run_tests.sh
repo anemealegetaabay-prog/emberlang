@@ -4,11 +4,11 @@
 set -u
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-VM="$ROOT/vmlang"
+VM="$ROOT/emberlang"
 CASES="$ROOT/tests/cases"
 
 if [ ! -x "$VM" ]; then
-  echo "error: build vmlang first (make)" >&2
+  echo "error: build emberlang first (make)" >&2
   exit 1
 fi
 

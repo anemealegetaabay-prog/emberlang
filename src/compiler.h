@@ -1,5 +1,5 @@
-#ifndef VMLANG_COMPILER_H
-#define VMLANG_COMPILER_H
+#ifndef EMBERLANG_COMPILER_H
+#define EMBERLANG_COMPILER_H
 
 #include "object.h"
 #include "vm.h"

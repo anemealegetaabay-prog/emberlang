@@ -1,5 +1,5 @@
-#ifndef VMLANG_VALUE_H
-#define VMLANG_VALUE_H
+#ifndef EMBERLANG_VALUE_H
+#define EMBERLANG_VALUE_H
 
 #include <string.h>
 

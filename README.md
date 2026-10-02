@@ -1,4 +1,4 @@
-# vmlang
+# emberlang
 
 A small stack-based bytecode virtual machine for a dynamically typed scripting
 language. Source is scanned into tokens, compiled to bytecode in a single pass,
@@ -25,9 +25,9 @@ print "foo" + "bar";    // foobar
 ## Build & run
 
 ```sh
-make            # produces ./vmlang
-./vmlang script.vl
-./vmlang        # REPL
+make            # produces ./emberlang
+./emberlang script.vl
+./emberlang        # REPL
 make test       # run the end-to-end suite in tests/
 ```
 
@@ -35,7 +35,7 @@ make test       # run the end-to-end suite in tests/
 
 ```
 src/        scanner, compiler, vm, object model, hash table, public API
-include/    vmlang.h  (public entry points used by the CLI and fuzzers)
+include/    emberlang.h  (public entry points used by the CLI and fuzzers)
 fuzz/       libFuzzer harnesses + seed corpus + dictionary
 tests/      end-to-end cases (script -> expected stdout)
 .clusterfuzzlite/  build.sh + project.yaml (ClusterFuzzLite entry point)
@@ -52,7 +52,7 @@ Two harnesses exercise different entry points:
 
 ```sh
 clang -fsanitize=address,fuzzer -Iinclude -Isrc \
-    fuzz/interpret_fuzzer.cc src/{value,chunk,memory,object,table,scanner,compiler,vm,vmlang}.c \
+    fuzz/interpret_fuzzer.cc src/{value,chunk,memory,object,table,scanner,compiler,vm,emberlang}.c \
     -o interpret_fuzzer
 ./interpret_fuzzer fuzz/corpus/interpret_fuzzer
 ```

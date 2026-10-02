@@ -1,5 +1,5 @@
-#ifndef VMLANG_SCANNER_H
-#define VMLANG_SCANNER_H
+#ifndef EMBERLANG_SCANNER_H
+#define EMBERLANG_SCANNER_H
 
 typedef enum {
   // Single-character tokens.

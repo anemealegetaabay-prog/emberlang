@@ -4,7 +4,7 @@
 #include "compiler.h"
 #include "object.h"
 #include "vm.h"
-#include "vmlang.h"
+#include "emberlang.h"
 
 /* Both entry points accept a (possibly non-NUL-terminated) byte buffer,
    as delivered by the fuzzing harness, and copy it into a NUL-terminated
@@ -18,7 +18,7 @@ static char* nul_terminate(const char* source, size_t length) {
   return buf;
 }
 
-int vmlang_interpret(const char* source, size_t length) {
+int emberlang_interpret(const char* source, size_t length) {
   char* buf = nul_terminate(source, length);
   if (buf == NULL) return -1;
 
@@ -30,7 +30,7 @@ int vmlang_interpret(const char* source, size_t length) {
   return result == INTERPRET_OK ? 0 : (int)result;
 }
 
-int vmlang_compile(const char* source, size_t length) {
+int emberlang_compile(const char* source, size_t length) {
   char* buf = nul_terminate(source, length);
   if (buf == NULL) return -1;
 

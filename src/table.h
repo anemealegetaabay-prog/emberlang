@@ -1,5 +1,5 @@
-#ifndef VMLANG_TABLE_H
-#define VMLANG_TABLE_H
+#ifndef EMBERLANG_TABLE_H
+#define EMBERLANG_TABLE_H
 
 #include "common.h"
 #include "value.h"

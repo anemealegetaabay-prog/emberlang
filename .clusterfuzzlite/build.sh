@@ -2,7 +2,7 @@
 # Builds every fuzz harness into $OUT. Runs with the repo as $SRC and as
 # the working directory, so all paths are rooted at $SRC.
 
-LIB_SRCS=(value chunk memory object table scanner compiler vm vmlang)
+LIB_SRCS=(value chunk memory object table scanner compiler vm emberlang)
 
 OBJS=""
 for unit in "${LIB_SRCS[@]}"; do

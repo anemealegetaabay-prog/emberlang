@@ -1,5 +1,5 @@
-#ifndef VMLANG_MEMORY_H
-#define VMLANG_MEMORY_H
+#ifndef EMBERLANG_MEMORY_H
+#define EMBERLANG_MEMORY_H
 
 #include "common.h"
 #include "object.h"

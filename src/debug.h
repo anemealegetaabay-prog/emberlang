@@ -1,5 +1,5 @@
-#ifndef VMLANG_DEBUG_H
-#define VMLANG_DEBUG_H
+#ifndef EMBERLANG_DEBUG_H
+#define EMBERLANG_DEBUG_H
 
 #include "chunk.h"
 
