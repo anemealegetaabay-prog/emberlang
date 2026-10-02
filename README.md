@@ -32,7 +32,7 @@ print "foo" + "bar";    // foobar
 
 ```sh
 make            # produces ./emberlang
-./emberlang script.vl
+./emberlang script.ember
 ./emberlang     # REPL
 make test       # run the end-to-end suite in tests/
 ```
@@ -53,7 +53,7 @@ make test       # run the end-to-end suite in tests/
   harnesses and packages their seed corpora, and `project.yaml` enables
   AddressSanitizer and UndefinedBehaviorSanitizer.
 - **End-to-end test suite** in `tests/`. `run_tests.sh` runs each
-  `tests/cases/*.vl` script and compares its output with the matching
+  `tests/cases/*.ember` script and compares its output with the matching
   `.expected` file. Six cases cover arithmetic, strings, control flow, scopes,
   functions and closures, and classes with inheritance. `make test` runs it.
 - A standalone **Makefile** for the CLI and the tests.

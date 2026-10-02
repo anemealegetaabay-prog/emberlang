@@ -1,5 +1,5 @@
 #!/bin/bash
-# Minimal end-to-end test runner: each tests/cases/<name>.vl is run and its
+# Minimal end-to-end test runner: each tests/cases/<name>.ember is run and its
 # stdout compared against tests/cases/<name>.expected.
 set -u
 
@@ -14,9 +14,9 @@ fi
 
 pass=0
 fail=0
-for script in "$CASES"/*.vl; do
+for script in "$CASES"/*.ember; do
   [ -e "$script" ] || continue
-  name="$(basename "$script" .vl)"
+  name="$(basename "$script" .ember)"
   expected="$CASES/$name.expected"
   actual="$("$VM" "$script" 2>&1)"
   if [ "$actual" == "$(cat "$expected")" ]; then
