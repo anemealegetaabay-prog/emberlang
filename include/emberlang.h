@@ -7,7 +7,8 @@
 extern "C" {
 #endif
 
-/* Public entry points used by both the CLI and the fuzz harnesses. */
+/* Public entry points, used by the fuzz harnesses. (The CLI in src/main.c
+   calls the VM directly.) */
 
 /* Compile + run a script. Returns 0 on success, non-zero on
    compile/runtime error. The buffer need not be NUL-terminated. */
